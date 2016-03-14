@@ -16,6 +16,10 @@
 		C22B8DA51C964C8600A4EBD6 /* ZSRunTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DA41C964C8600A4EBD6 /* ZSRunTimeTests.m */; };
 		C22B8DB01C964C8600A4EBD6 /* ZSRunTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DAF1C964C8600A4EBD6 /* ZSRunTimeUITests.m */; };
 		C22B8DCC1C96575000A4EBD6 /* ZSMethodLearn.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DCB1C96575000A4EBD6 /* ZSMethodLearn.m */; };
+		C22B8DCF1C967B4D00A4EBD6 /* ZSProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DCE1C967B4D00A4EBD6 /* ZSProperty.m */; };
+		C22B8DD21C968F1E00A4EBD6 /* KCCat.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DD11C968F1E00A4EBD6 /* KCCat.m */; };
+		C22B8DD51C968F3200A4EBD6 /* KCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DD41C968F3200A4EBD6 /* KCDog.m */; };
+		C22B8DD81C968F4500A4EBD6 /* KCPig.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DD71C968F4500A4EBD6 /* KCPig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,14 @@
 		C22B8DB11C964C8600A4EBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C22B8DCA1C96575000A4EBD6 /* ZSMethodLearn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSMethodLearn.h; sourceTree = "<group>"; };
 		C22B8DCB1C96575000A4EBD6 /* ZSMethodLearn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSMethodLearn.m; sourceTree = "<group>"; };
+		C22B8DCD1C967B4D00A4EBD6 /* ZSProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSProperty.h; sourceTree = "<group>"; };
+		C22B8DCE1C967B4D00A4EBD6 /* ZSProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSProperty.m; sourceTree = "<group>"; };
+		C22B8DD01C968F1E00A4EBD6 /* KCCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCCat.h; sourceTree = "<group>"; };
+		C22B8DD11C968F1E00A4EBD6 /* KCCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCCat.m; sourceTree = "<group>"; };
+		C22B8DD31C968F3200A4EBD6 /* KCDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDog.h; sourceTree = "<group>"; };
+		C22B8DD41C968F3200A4EBD6 /* KCDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDog.m; sourceTree = "<group>"; };
+		C22B8DD61C968F4500A4EBD6 /* KCPig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPig.h; sourceTree = "<group>"; };
+		C22B8DD71C968F4500A4EBD6 /* KCPig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +171,12 @@
 		C22B8DC21C96520800A4EBD6 /* ForwardMessage */ = {
 			isa = PBXGroup;
 			children = (
+				C22B8DD01C968F1E00A4EBD6 /* KCCat.h */,
+				C22B8DD11C968F1E00A4EBD6 /* KCCat.m */,
+				C22B8DD31C968F3200A4EBD6 /* KCDog.h */,
+				C22B8DD41C968F3200A4EBD6 /* KCDog.m */,
+				C22B8DD61C968F4500A4EBD6 /* KCPig.h */,
+				C22B8DD71C968F4500A4EBD6 /* KCPig.m */,
 			);
 			path = ForwardMessage;
 			sourceTree = "<group>";
@@ -189,6 +207,8 @@
 		C22B8DC61C96520800A4EBD6 /* Property */ = {
 			isa = PBXGroup;
 			children = (
+				C22B8DCD1C967B4D00A4EBD6 /* ZSProperty.h */,
+				C22B8DCE1C967B4D00A4EBD6 /* ZSProperty.m */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -323,10 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22B8DD81C968F4500A4EBD6 /* KCPig.m in Sources */,
+				C22B8DD21C968F1E00A4EBD6 /* KCCat.m in Sources */,
 				C22B8D921C964C8600A4EBD6 /* ViewController.m in Sources */,
 				C22B8D8F1C964C8600A4EBD6 /* AppDelegate.m in Sources */,
 				C22B8DCC1C96575000A4EBD6 /* ZSMethodLearn.m in Sources */,
+				C22B8DCF1C967B4D00A4EBD6 /* ZSProperty.m in Sources */,
 				C22B8D8C1C964C8500A4EBD6 /* main.m in Sources */,
+				C22B8DD51C968F3200A4EBD6 /* KCDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

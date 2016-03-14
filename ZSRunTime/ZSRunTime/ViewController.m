@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "ZSMethodLearn.h"
+#import "ZSProperty.h"
+#import "KCCat.h"
 @interface ViewController ()
 
 @end
@@ -26,9 +28,10 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
-    [ZSMethodLearn testMethod];
+//    [ZSMethodLearn testMethod];
+//    [ZSProperty test];
     
-    
+    [KCCat test];
 }
 
 @end
