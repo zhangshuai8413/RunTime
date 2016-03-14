@@ -12,6 +12,7 @@
 #import "KCCat.h"
 #import "KCMessageSend.h"
 #import "IMPViewVC.h"
+#import "KCArchive.h"
 @interface ViewController ()
 
 @end
@@ -43,8 +44,8 @@
 //    [ZSProperty test];
     
 //    [KCCat test];
-    [KCMessageSend test];
-    
+//      [KCMessageSend test];
+    [KCArchive test];
 }
 
 @end
