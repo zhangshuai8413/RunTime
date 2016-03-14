@@ -11,11 +11,21 @@
 #import "ZSProperty.h"
 #import "KCCat.h"
 #import "KCMessageSend.h"
+#import "IMPViewVC.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (IBAction)impClick:(id)sender {
+    
+    IMPViewVC  *vc =[IMPViewVC new];
+    
+    vc.view.backgroundColor=[UIColor redColor];
+    
+  [self presentViewController:vc animated:YES completion:nil];
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
