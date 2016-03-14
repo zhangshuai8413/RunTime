@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZSMethodLearn.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +22,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [ZSMethodLearn testMethod];
+    
+    
 }
 
 @end

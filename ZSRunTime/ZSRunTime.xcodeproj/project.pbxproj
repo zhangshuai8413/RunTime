@@ -15,6 +15,7 @@
 		C22B8D9A1C964C8600A4EBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22B8D981C964C8600A4EBD6 /* LaunchScreen.storyboard */; };
 		C22B8DA51C964C8600A4EBD6 /* ZSRunTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DA41C964C8600A4EBD6 /* ZSRunTimeTests.m */; };
 		C22B8DB01C964C8600A4EBD6 /* ZSRunTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DAF1C964C8600A4EBD6 /* ZSRunTimeUITests.m */; };
+		C22B8DCC1C96575000A4EBD6 /* ZSMethodLearn.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DCB1C96575000A4EBD6 /* ZSMethodLearn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C22B8DAB1C964C8600A4EBD6 /* ZSRunTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSRunTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22B8DAF1C964C8600A4EBD6 /* ZSRunTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSRunTimeUITests.m; sourceTree = "<group>"; };
 		C22B8DB11C964C8600A4EBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C22B8DCA1C96575000A4EBD6 /* ZSMethodLearn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSMethodLearn.h; sourceTree = "<group>"; };
+		C22B8DCB1C96575000A4EBD6 /* ZSMethodLearn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSMethodLearn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,12 @@
 		C22B8D891C964C8500A4EBD6 /* ZSRunTime */ = {
 			isa = PBXGroup;
 			children = (
+				C22B8DC21C96520800A4EBD6 /* ForwardMessage */,
+				C22B8DC31C96520800A4EBD6 /* Messageg */,
+				C22B8DC41C96520800A4EBD6 /* Method */,
+				C22B8DC51C96520800A4EBD6 /* MethodExchange */,
+				C22B8DC61C96520800A4EBD6 /* Property */,
+				C22B8DC11C9651FE00A4EBD6 /* Dict_Model */,
 				C22B8D8D1C964C8500A4EBD6 /* AppDelegate.h */,
 				C22B8D8E1C964C8600A4EBD6 /* AppDelegate.m */,
 				C22B8D901C964C8600A4EBD6 /* ViewController.h */,
@@ -138,6 +147,50 @@
 				C22B8DB11C964C8600A4EBD6 /* Info.plist */,
 			);
 			path = ZSRunTimeUITests;
+			sourceTree = "<group>";
+		};
+		C22B8DC11C9651FE00A4EBD6 /* Dict_Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dict_Model;
+			sourceTree = "<group>";
+		};
+		C22B8DC21C96520800A4EBD6 /* ForwardMessage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForwardMessage;
+			sourceTree = "<group>";
+		};
+		C22B8DC31C96520800A4EBD6 /* Messageg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messageg;
+			sourceTree = "<group>";
+		};
+		C22B8DC41C96520800A4EBD6 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				C22B8DCA1C96575000A4EBD6 /* ZSMethodLearn.h */,
+				C22B8DCB1C96575000A4EBD6 /* ZSMethodLearn.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		C22B8DC51C96520800A4EBD6 /* MethodExchange */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MethodExchange;
+			sourceTree = "<group>";
+		};
+		C22B8DC61C96520800A4EBD6 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Property;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +325,7 @@
 			files = (
 				C22B8D921C964C8600A4EBD6 /* ViewController.m in Sources */,
 				C22B8D8F1C964C8600A4EBD6 /* AppDelegate.m in Sources */,
+				C22B8DCC1C96575000A4EBD6 /* ZSMethodLearn.m in Sources */,
 				C22B8D8C1C964C8500A4EBD6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZSRunTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alan.Zhang.ZSRunTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZSRunTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alan.Zhang.ZSRunTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +554,7 @@
 				C22B8DB61C964C8600A4EBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C22B8DB71C964C8600A4EBD6 /* Build configuration list for PBXNativeTarget "ZSRunTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +563,7 @@
 				C22B8DB91C964C8600A4EBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C22B8DBA1C964C8600A4EBD6 /* Build configuration list for PBXNativeTarget "ZSRunTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +572,7 @@
 				C22B8DBC1C964C8600A4EBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
