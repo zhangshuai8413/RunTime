@@ -10,6 +10,7 @@
 #import "ZSMethodLearn.h"
 #import "ZSProperty.h"
 #import "KCCat.h"
+#import "KCMessageSend.h"
 @interface ViewController ()
 
 @end
@@ -31,7 +32,9 @@
 //    [ZSMethodLearn testMethod];
 //    [ZSProperty test];
     
-    [KCCat test];
+//    [KCCat test];
+    [KCMessageSend test];
+    
 }
 
 @end

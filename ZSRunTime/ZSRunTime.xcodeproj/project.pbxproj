@@ -20,6 +20,7 @@
 		C22B8DD21C968F1E00A4EBD6 /* KCCat.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DD11C968F1E00A4EBD6 /* KCCat.m */; };
 		C22B8DD51C968F3200A4EBD6 /* KCDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DD41C968F3200A4EBD6 /* KCDog.m */; };
 		C22B8DD81C968F4500A4EBD6 /* KCPig.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DD71C968F4500A4EBD6 /* KCPig.m */; };
+		C22B8DDB1C969F0E00A4EBD6 /* KCMessageSend.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8DDA1C969F0E00A4EBD6 /* KCMessageSend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		C22B8DD41C968F3200A4EBD6 /* KCDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDog.m; sourceTree = "<group>"; };
 		C22B8DD61C968F4500A4EBD6 /* KCPig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCPig.h; sourceTree = "<group>"; };
 		C22B8DD71C968F4500A4EBD6 /* KCPig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCPig.m; sourceTree = "<group>"; };
+		C22B8DD91C969F0E00A4EBD6 /* KCMessageSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMessageSend.h; sourceTree = "<group>"; };
+		C22B8DDA1C969F0E00A4EBD6 /* KCMessageSend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMessageSend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				C22B8DC21C96520800A4EBD6 /* ForwardMessage */,
-				C22B8DC31C96520800A4EBD6 /* Messageg */,
+				C22B8DC31C96520800A4EBD6 /* Message */,
 				C22B8DC41C96520800A4EBD6 /* Method */,
 				C22B8DC51C96520800A4EBD6 /* MethodExchange */,
 				C22B8DC61C96520800A4EBD6 /* Property */,
@@ -181,10 +184,13 @@
 			path = ForwardMessage;
 			sourceTree = "<group>";
 		};
-		C22B8DC31C96520800A4EBD6 /* Messageg */ = {
+		C22B8DC31C96520800A4EBD6 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				C22B8DD91C969F0E00A4EBD6 /* KCMessageSend.h */,
+				C22B8DDA1C969F0E00A4EBD6 /* KCMessageSend.m */,
 			);
+			name = Message;
 			path = Messageg;
 			sourceTree = "<group>";
 		};
@@ -347,6 +353,7 @@
 				C22B8DD21C968F1E00A4EBD6 /* KCCat.m in Sources */,
 				C22B8D921C964C8600A4EBD6 /* ViewController.m in Sources */,
 				C22B8D8F1C964C8600A4EBD6 /* AppDelegate.m in Sources */,
+				C22B8DDB1C969F0E00A4EBD6 /* KCMessageSend.m in Sources */,
 				C22B8DCC1C96575000A4EBD6 /* ZSMethodLearn.m in Sources */,
 				C22B8DCF1C967B4D00A4EBD6 /* ZSProperty.m in Sources */,
 				C22B8D8C1C964C8500A4EBD6 /* main.m in Sources */,
