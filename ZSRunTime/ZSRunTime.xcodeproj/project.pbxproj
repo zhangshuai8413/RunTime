@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20D125F1C979C040012EF79 /* KCMethodExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = C20D125E1C979C040012EF79 /* KCMethodExchange.m */; };
+		C20D12621C979E5C0012EF79 /* NSArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C20D12611C979E5C0012EF79 /* NSArray+Swizzling.m */; };
+		C20D12651C97A49B0012EF79 /* NSMutableArray+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C20D12641C97A49B0012EF79 /* NSMutableArray+Swizzling.m */; };
+		C20D12681C97A4F30012EF79 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C20D12671C97A4F30012EF79 /* NSObject+Swizzling.m */; };
 		C22B8D8C1C964C8500A4EBD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8D8B1C964C8500A4EBD6 /* main.m */; };
 		C22B8D8F1C964C8600A4EBD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8D8E1C964C8600A4EBD6 /* AppDelegate.m */; };
 		C22B8D921C964C8600A4EBD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22B8D911C964C8600A4EBD6 /* ViewController.m */; };
@@ -44,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C20D125D1C979C040012EF79 /* KCMethodExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMethodExchange.h; sourceTree = "<group>"; };
+		C20D125E1C979C040012EF79 /* KCMethodExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCMethodExchange.m; sourceTree = "<group>"; };
+		C20D12601C979E5C0012EF79 /* NSArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Swizzling.h"; sourceTree = "<group>"; };
+		C20D12611C979E5C0012EF79 /* NSArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Swizzling.m"; sourceTree = "<group>"; };
+		C20D12631C97A49B0012EF79 /* NSMutableArray+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzling.h"; sourceTree = "<group>"; };
+		C20D12641C97A49B0012EF79 /* NSMutableArray+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzling.m"; sourceTree = "<group>"; };
+		C20D12661C97A4F30012EF79 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		C20D12671C97A4F30012EF79 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		C22B8D871C964C8500A4EBD6 /* ZSRunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSRunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22B8D8B1C964C8500A4EBD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C22B8D8D1C964C8500A4EBD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -219,6 +231,14 @@
 		C22B8DC51C96520800A4EBD6 /* MethodExchange */ = {
 			isa = PBXGroup;
 			children = (
+				C20D125D1C979C040012EF79 /* KCMethodExchange.h */,
+				C20D125E1C979C040012EF79 /* KCMethodExchange.m */,
+				C20D12601C979E5C0012EF79 /* NSArray+Swizzling.h */,
+				C20D12611C979E5C0012EF79 /* NSArray+Swizzling.m */,
+				C20D12631C97A49B0012EF79 /* NSMutableArray+Swizzling.h */,
+				C20D12641C97A49B0012EF79 /* NSMutableArray+Swizzling.m */,
+				C20D12661C97A4F30012EF79 /* NSObject+Swizzling.h */,
+				C20D12671C97A4F30012EF79 /* NSObject+Swizzling.m */,
 			);
 			path = MethodExchange;
 			sourceTree = "<group>";
@@ -382,16 +402,20 @@
 			files = (
 				C22B8DD81C968F4500A4EBD6 /* KCPig.m in Sources */,
 				C22B8DE21C96BF9100A4EBD6 /* IMPViewVC.m in Sources */,
+				C20D125F1C979C040012EF79 /* KCMethodExchange.m in Sources */,
+				C20D12681C97A4F30012EF79 /* NSObject+Swizzling.m in Sources */,
 				C22B8DD21C968F1E00A4EBD6 /* KCCat.m in Sources */,
 				C22B8DDF1C96BF1000A4EBD6 /* UIViewController+extension.m in Sources */,
 				C22B8D921C964C8600A4EBD6 /* ViewController.m in Sources */,
 				C22B8D8F1C964C8600A4EBD6 /* AppDelegate.m in Sources */,
 				C22B8DDB1C969F0E00A4EBD6 /* KCMessageSend.m in Sources */,
+				C20D12621C979E5C0012EF79 /* NSArray+Swizzling.m in Sources */,
 				C22B8DCC1C96575000A4EBD6 /* ZSMethodLearn.m in Sources */,
 				C22B8DCF1C967B4D00A4EBD6 /* ZSProperty.m in Sources */,
 				C22B8D8C1C964C8500A4EBD6 /* main.m in Sources */,
 				C22B8DE61C96C7A600A4EBD6 /* KCArchive.m in Sources */,
 				C22B8DD51C968F3200A4EBD6 /* KCDog.m in Sources */,
+				C20D12651C97A49B0012EF79 /* NSMutableArray+Swizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

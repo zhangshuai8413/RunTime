@@ -13,6 +13,7 @@
 #import "KCMessageSend.h"
 #import "IMPViewVC.h"
 #import "KCArchive.h"
+#import "KCMethodExchange.h"
 @interface ViewController ()
 
 @end
@@ -42,10 +43,10 @@
 
 //    [ZSMethodLearn testMethod];
 //    [ZSProperty test];
-    
 //    [KCCat test];
-//      [KCMessageSend test];
-    [KCArchive test];
+//    [KCMessageSend test];
+//    [KCArchive test];
+    [KCMethodExchange test];
 }
 
 @end
