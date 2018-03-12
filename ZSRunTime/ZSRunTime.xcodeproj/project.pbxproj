@@ -147,7 +147,6 @@
 				C22B8DC41C96520800A4EBD6 /* Method */,
 				C22B8DC51C96520800A4EBD6 /* MethodExchange */,
 				C22B8DC61C96520800A4EBD6 /* Property */,
-				C22B8DC11C9651FE00A4EBD6 /* Dict_Model */,
 				C22B8D8D1C964C8500A4EBD6 /* AppDelegate.h */,
 				C22B8D8E1C964C8600A4EBD6 /* AppDelegate.m */,
 				C22B8D901C964C8600A4EBD6 /* ViewController.h */,
@@ -187,13 +186,6 @@
 				C22B8DB11C964C8600A4EBD6 /* Info.plist */,
 			);
 			path = ZSRunTimeUITests;
-			sourceTree = "<group>";
-		};
-		C22B8DC11C9651FE00A4EBD6 /* Dict_Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Dict_Model;
 			sourceTree = "<group>";
 		};
 		C22B8DC21C96520800A4EBD6 /* ForwardMessage */ = {
